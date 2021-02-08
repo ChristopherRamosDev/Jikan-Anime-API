@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Kitsu API</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center text-white">Jikan API</h1>
+        <div class="main">
+            <div class="container">
+                <h2 class="text-white text-center">Anime</h2>
+                <form class="formulario" action="#">
+                    <div class="block">
+                        <label class="block" for="">Name</label>
+                        <input class="search" type="text" placeholder="Search by anime">
+                    </div>
+                    <div class="block">
+                        <label class="block" for="">Type</label>
+                        <select class="type" name="Type" id="Type">Type>
+                            <option value="anime">Anime</option>
+                            <option value="manga">Manga</option>
+                        </select>
+                    </div>
+                    <button class="button" type="submit">Submit
+                    </button>
+                </form>
+                <div class="alerta"></div>
+            </div>
+            <div class="text-center text-white">
+                <h2 class="">Resultado</h2>
+                <div class="resultado"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js" type="module"></script>
+</body>
+
+</html>
