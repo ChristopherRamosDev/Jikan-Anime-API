@@ -9,6 +9,8 @@ html {
 body {
   background: linear-gradient(to right, #142242, #186cac);
   font-size: 62.5%;
+  position: relative;
+  
 }
 
 /*Utilitario*/
@@ -50,6 +52,8 @@ h2 {
 .container {
   width: 80%;
   margin: 0 auto;
+  height: 85vh;
+ 
 }
 .main {
   display: grid;
@@ -305,4 +309,16 @@ label {
 @keyframes sk-circleFadeDelay {
   0%, 39%, 100% { opacity: 0; }
   40% { opacity: 1; } 
+}
+
+footer{
+  text-align: center;
+  margin-bottom: 0;
+}
+footer p{
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 1.6rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
 }
